@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魅力中华</title>
+    <link rel="stylesheet" href="../static/css/style2.css">
+    <link rel="stylesheet" href="../static/css/nav_son.css">
+    <link rel="stylesheet" href="../static/css/Ti.css">
+    <link rel="icon" href="../static/ICON/favicon.ico" type="image/x-icon" />
+   <script src="../static/js/jquery.min.js" charset="utf-8"></script>
+</head>
+<body>
+    
+    <header class="HDR" >
+        <a href="#" class="ma"></a>
+        
+        <a href="#" class="logo">魅力中华</a>
+        
+        <ul>
+        
+                    <li><a href="#v1" >神话</a></li>
+                    <li> <a href="#v3" >诗词</a></li>
+                    <li>  <a href="#v4" >国画</a></li>
+                    <li>  <a href="#v2" >二十四节气</a></li>
+                    <li>  <a href="#v5" >乐器</a></li>
+                    <li><a href="{% url 'jfapi:index' %}">魔数工具</a></li>
+                    <li><a class="a1" id="dateTime"></a></li>
+                    
+       
+        </ul>
+       
+    </header>
+ 
+        <section class="banner1">
+        </section>
+        <!-- 按钮 -->
+     <div class="aa"> 
+                 <div class="center">
+          <div class="outer button">
+            <button onclick="window.location.href='#MAIN'" >开启文化之旅</button>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+    </div>
+           <!-- 大标题 -->
+        </div>
+        <div class="h-f">
+          <span> 精彩的中国文化</span>
+        </div>
+        <!-- 主体内容的盒子 -->
+    <div class="main" id="MAIN">
+        <div class="main_son">
+  <div class="shhua" id="v1">
+    <h4>神话</h4>
+  </div>
+          <!-- 神话人物介绍 -->
+          <div class="inner-width">
+            <div class="testimonial-pics">
+              <img src="../static/images/SH/1.jpg" alt="test-1" class="active">
+              <img src="../static/images/SH/2.jpg" alt="test-2">
+              <img src="../static/images/SH/3.jpg" alt="test-3">
+              <img src="../static/images/SH/4.jpg" alt="test-4">
+            </div>
+    
+            <div class="testimonial-contents">
+              <div class="testimonial active" id="test-1">
+                <p>“上古仓颉，南乐吴村人，生而齐圣，有四目，观鸟迹虫文始制文字以代结绳之政，乃轩辕黄帝之史官也”。</p>
+                <span class="description">仓颉造字 / 《万姓统谱·卷五十二》</span>
+              </div>
+    
+              <div class="testimonial" id="test-2">
+                <p>洪水滔天，鲧窃帝之息壤以堙洪水，不待帝命。帝令祝融杀鲧于羽郊。鲧复生禹，帝乃命禹卒布土以定九州岛......</p>
+                <span class="description">大禹治水 / 《山海经:海内经》</span>
+              </div>
+    
+              <div class="testimonial" id="test-3">
+                <p>俗说天地开辟，未有人民，女娲抟黄土做人。剧务，力不暇供，乃引（牵、拉）绳于泥中，举以为人。故富贵者，黄土人；贫贱者，引縆（绳）人也。</p>
+                <span class="description">女娲造人 / 《风俗通义》</span>
+              </div>
+    
+              <div class="testimonial" id="test-4">
+                <p>“盘古之君，龙首蛇身，嘘为风雨，吹为雷电，开目为昼，闭目为夜。死后骨节为山林，体为江海，血为淮渎，毛发为草木</p>
+                <span class="description">盘古开天 / 《广博物志》</span>
+              </div>
+            </div>
+          </div>
+      <div class="logo">
+          <span>
+          </span>
+      </div>
+      <div class="sh_logo">
+        <span class="shl">
+        </span>
+        </div>
+      <div class="ersi_j" id="v2">
+        <h4>二十四节气</h4>
+      </div>
+      <div class="nav_father">
+        <ul class="nav_move">
+          <li class="selected">立春</li>
+          <li>雨水</li>
+          <li>惊蛰</li>
+          <li>春分</li>
+          <li>清明</li>
+          <li>谷雨</li>
+          <li>立夏</li>
+          <li>小满</li>
+          <li>芒种</li>
+          <li>夏至</li>
+          <li>小暑</li>
+          <li>大暑</li>
+          <li>立秋</li>
+          <li>处暑</li>
+          <li>白露</li>
+          <li>秋分</li>
+          <li>寒露</li>
+          <li>霜降</li>
+          <li>立冬</li>
+          <li>小雪</li>
+          <li>大雪</li>
+          <li>冬至</li>
+          <li>小寒</li>
+          <li>大寒</li>
+      </ul>
+        <div class="content_move">
+          <div class="list ">
+            <div class="par1">
+              <div class="es_img">
+              </div>
+              <!-- 第一部分 -->
+              <div class="tx1">
+                <span class="ti_1">立春</span>
+               <div class="con_1">
+             
+                <span>为二十四节气之首，又名立春节、正月节、岁节、改岁、岁是“开始”之意</span>
+                <span>；春，代表着温暖、生长。旦等。立，廿四节气最初是依据“斗转星移”制</span>
+                <span>定，当北斗七星的斗柄指向寅位时为立春。干支纪元，以立春为岁首，立春乃万物起始</span>
+     
+                <span>、一切更生之义也，意味着新的一个轮回已开启</span>
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo1">
+            </div>
+            <div class="es_logo"></div>
+           <div class="par2">
+             <div class="es_img2"></div>
+            <div class="tx2">
+              <span class="ti_2">春卷</span>
+             <div class="con_2">
+              <span>春卷，又称春饼、春盘、薄饼是立春时一种传统食品，</span>
+              <span>流行于中国各地，在江南等地尤盛在中国南方，过春</span>
+              <span>节不吃饺子，吃春卷和芝麻汤圆并且在漳州一带清明</span>
+              <span>时节也吃春卷，民间除供自己家食用外，常用于待客</span>
+              <span>春卷历史悠久，由古代的春饼演化而来</span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div  class="list">
+            <div class="par1">
+              <div class="es_img_2">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">雨水</span>
+               <div class="con_1">
+                <span>俗话说“春雨贵如油”，适宜的降水对农作物的生长很重要。</span>
+                <span>十四节气是古代农耕文明的产物，“雨水”是农耕文化对于节令的</span>
+                  <span>反映。</span>
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo2">
+            </div>
+            <div class="es_logo_2"></div>
+           <div class="par2">
+             <div class="es_img2_2"></div>
+            <div class="tx2">
+              <span class="ti_2">罐罐肉</span>
+             <div class="con_2">
+              <span>罐罐肉 汉族民间传统菜肴。流行于四川。</span>
+              <span>其制法:将猪蹄等洗净去毛,用“沙罐”盛装,</span>
+              <span>渗水约大半罐,放入黄豆或白米豆,加糯米少许夜晚将睡前,</span>
+              <span>以柴渣、锯末等堆积,引火使其暗燃。放“沙罐”于中焖炖之。</span>
+              <span>其是雨水期间必不可少的传统美食</span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div  class="list">
+            <div class="par1">
+              <div class="es_img_3">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">惊蛰</span>
+               <div class="con_1">
+                <span>惊蛰时节，春气萌动，大自然有了新的活力。</span>
+                <span>所谓“春雷惊百虫”，是指惊蛰时节，春雷始鸣，</span>
+                <span>，惊醒蛰伏于地下越冬的蛰虫。惊蛰节气的标志性特征是春雷乍动、</span>
+                <span>万物生机盎然。从我国各地自然物候、气候进程看，</span>
+                <span>“惊蛰始雷”仅与我国南方部分地区的自然节律相吻合。</span>
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo3">
+            </div>
+            <div class="es_logo_3"></div>
+           <div class="par2">
+             <div class="es_img2_3"></div>
+            <div class="tx2">
+              <span class="ti_2">梨羹</span>
+             <div class="con_2">
+              <span>惊蛰时节，乍暖还寒，除了注意防寒保暖，还因气候比较干燥，很</span>
+              <span>容易使人口干舌燥、外感咳嗽。所以民间素有惊蛰吃梨的习俗，梨</span>
+              <span>可以生食、蒸、榨汁、烤或者煮水。此时饮食起居应顺肝之性，吃</span>
+              <span>梨助益脾气，令五脏和平，以增强体质抵御病菌的侵袭。</span>
+          
+             </div>
+            </div>
+           </div>
+          </div>
+          <div  class="list">
+            <div class="par1">
+              <div class="es_img_4">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">春分</span>
+               <div class="con_1">
+                <span>春分，是“二十四节气”之第四个节气。</span>
+                <span>所谓“春雷惊百虫”，是指惊蛰时节，春雷始鸣，</span>
+                <span>“春分者，阴阳相半也。故昼夜均而寒暑平”。</span>
+                <span>万物生机盎然。从我国各地自然物候、气候进程看，一个“分”字道出了昼夜、寒暑的界限。</span>
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo4">
+            </div>
+            <div class="es_logo_4"></div>
+           <div class="par2">
+             <div class="es_img2_4"></div>
+            <div class="tx2">
+              <span class="ti_2">春菜</span>
+             <div class="con_2">
+              <span>“春分吃春菜”。“春菜”是一种野苋菜，乡人称之为“春碧蒿”</span>
+              <span>逢春分那天，全村人都去采摘春菜。在田野中搜寻时，多见是嫩绿</span>
+              <span>逢春分那天，全村人都去采摘春菜。在田野中搜寻时，多见是嫩绿</span>
+              <span>汤”，名曰“春汤”。有顺口溜道:“春汤灌脏，洗涤肝肠。阖家老</span>
+              <span>少，平安健康。”一年自春，人们祈求的还是家宅安宁，身壮力健。</span>
+    
+             </div>
+            </div>
+           </div>
+          </div>
+
+          <!-- 清明 -->
+          <div  class="list">
+            <div class="par1">
+              <div class="es_img_5">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">清明</span>
+               <div class="con_1">
+                <span>《淮南子·天文训》：“春分后十五日，斗指乙，则清明风至”；文中的“清明风”</span>
+                <span>《淮南子·天文训》：“春分后十五日，斗指乙，则清明风至”；文中的“清明风”</span>
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo5">
+            </div>
+            <div class="es_logo_5"></div>
+           <div class="par2">
+             <div class="es_img2_5"></div>
+            <div class="tx2">
+              <span class="ti_2">青团</span>
+             <div class="con_2">
+              <span>青团又称清明饼、清明粑、艾叶粑粑、清</span>
+              <span>明果、清明、艾叶糍粑、艾草糕、清明团子、艾草青团、清明团子</span>
+              <span>等等。将雀麦草汁和糯米一起春合，使青汁和米粉相互融合，然后包</span>
+              <span>上豆沙、枣泥等馅料，用芦叶垫底，放到蒸笼内。蒸熟出笼的青团色</span>
+              <span>泽鲜绿，香气扑鼻，是本地清明节最有特色的节令食品。</span>
+    
+             </div>
+            </div>
+           </div>
+          </div>
+        <!-- 谷雨 -->
+          <div  class="list">
+            <div class="par1">
+              <div class="es_img_6">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">谷雨</span>
+               <div class="con_1">
+                <span>谷雨，是二十四节气之第6个节气，春季的最后一个节气</span>
+                <span>斗指辰；太阳黄经为30°；于每年公历4月19日－21日交节。</span>
+               <span>谷雨是“雨生百谷”的意思，此时降水明显增加，田中的秧苗初插、作物新种，</span> 
+               <span>最需要雨水的滋润，正所谓“春雨贵如油”。降雨量充足而及时，谷类作物能茁壮成长</span> 
+                <span>谷雨与雨水、小满、小雪、大雪等节气一样，都是反映降水现象的节气，</span>
+                  <span>是古代农耕文化对于节令的反映。</span> 
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo6">
+            </div>
+            <div class="es_logo_6"></div>
+           <div class="par2">
+             <div class="es_img2_6"></div>
+            <div class="tx2">
+              <span class="ti_2">香椿</span>
+             <div class="con_2">
+              <span>北方则有谷雨食香l的习俗，谷雨前后是香椿上市的时节，这时</span>
+              <span>的香椿醇香爽口营养价值高，有“雨前香椿嫩如丝”之说。中国</span>
+              <span>人食用香椿久已成习，汉代就遍布大江南北。椿芽营养丰富，并</span>
+              <span>具有食疗作用，主治外感风寒、风湿痹痛、胃痛、痢疾等。</span>
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 立夏 -->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_7">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">立夏</span>
+               <div class="con_1">
+                <span>立夏表示告别春天，是夏天的开始。</span>
+                <span>春生、夏长、秋收、冬藏，时至立夏，万物繁茂。</span>
+               <span>由于我国幅员辽阔、南北跨度大，各地自然节律不一。</span>
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo7">
+            </div>
+            <div class="es_logo_7"></div>
+           <div class="par2">
+             <div class="es_img2_7"></div>
+            <div class="tx2">
+              <span class="ti_2">立夏饭</span>
+             <div class="con_2">
+              <span>立夏是夏季的开始，人们在立夏日吃蛋拄心，吃笋拄腿，</span>
+              <span>吃豌豆拄眼，秤人拄身，其目的是出于祈求身、心、腿等重要部位健康无
+                 <span>防止生病，顺利度过炎夏的愿望。旧时，乡间用赤豆、黄豆、黑豆、</span>
+              <span>青豆、绿豆等五色豆拌合白粳米煮成“五色饭”，称吃“立夏饭”</span> 
+  
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 小满-->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_8">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">小满</span>
+               <div class="con_1">
+                <span>小满，“二十四节气”之一，是夏季的第二个节气。</span>
+                <span>小满，斗指甲，太阳达黄经60°，于每年公历5月20—22日交节。</span>
+               <span>小满节气意味着进入了大幅降水的雨季，雨水开始增多，往往会出现持续大范围的强降水。</span> 
+                
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo8">
+            </div>
+            <div class="es_logo_8"></div>
+           <div class="par2">
+             <div class="es_img2_8"></div>
+            <div class="tx2">
+              <span class="ti_2">苦菜</span>
+             <div class="con_2">
+              <span>春风吹，苦菜长，荒滩野地是粮仓。苦菜是中国人最早食用的野菜</span>
+              <span>之一。苦苦菜，苦中带涩，涩中带甜，新鲜爽口，清凉嫩香，营养丰富，</span>
+              <span>具有清热、凉血和解毒的功能。人们喜欢把苦菜烫熟，冷淘凉拌，调以</span>
+               <span>盐、醋、辣油或蒜泥，清凉辣香，吃馒头、米饭，使人食欲大增。</span>
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 芒种 -->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_9">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">芒种</span>
+               <div class="con_1">
+                <span>芒种，又名“忙种”，是二十四节气之第九个节气，夏季的第三个</span>
+                <span>节气，干支历午月的起始。斗指巳，太阳黄经达75°，于每年公</span>
+               <span>历6月5-7日交节。芒种，是“有芒之谷类作物可种”的意思。这</span> 
+               <span>个时节气温显著升高、雨量充沛、空气湿度大，适宜晚稻等谷</span> 
+                <span>类作物种植。农事耕种以“芒种”这节气为界，过此之后种植成活率就越来越低。</span> 
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo9">
+            </div>
+            <div class="es_logo_9"></div>
+           <div class="par2">
+             <div class="es_img2_9"></div>
+            <div class="tx2">
+              <span class="ti_2">青梅煮酒</span>
+             <div class="con_2">
+              <span>《三国演义》中“青梅煮酒论英雄”就发生在这个时节。 </span>
+               <span> 新鲜梅子大多味道酸涩，难以直接入口，需加工后方可食用</span>
+              <span>，这种加工过程便是煮梅。青梅树下，曹操烹煮和请客用的只</span>
+                <span>是清清的米酒，真正的青梅酒要将青梅、米酒一起浸泡</span>
+                 <span> ，再放入冰糖，才会酿成美味的青梅酒。</span>
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 夏至 -->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_10">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">夏至</span>
+               <div class="con_1">
+                <span>夏至，古时又称“夏节”、“夏至节”。古人说：“</span>
+                <span>日长之至，日影短至，至者，极也，故曰夏至”。</span>
+               <span>太阳运行至黄经90°时为夏至交节点，一般在公</span> 
+               <span>历6月21 ~ 22日交节。夏至这天，太阳直射北</span> 
+                <span>回归线，此时北半球各地的白昼时间达到全年</span> 
+                <span>最长，且纬度越高白昼越长。对于北回归线</span>
+                <span>及其以北的地区来说，夏至日也是一年中正午太阳高度最高的一天</span>
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo10">
+            </div>
+            <div class="es_logo_10"></div>
+           <div class="par2">
+             <div class="es_img2_10"></div>
+            <div class="tx2">
+              <span class="ti_2">冷面</span>
+             <div class="con_2">
+              <span>“吃过夏至面，一天短一线”.“冬至饺子夏至面”，好吃的北京人
+                </span>
+              <span>
+                在夏至这天讲究吃面。按照老北京的风俗</span>
+              <span>习惯，每年一到夏至节气
+                就可以大啖生菜、凉面了，因为这个时候</span>
+              <span>气候炎热，吃些生冷之物
+                可以降火开胃，又不至于因寒凉而损害健</span>
+                <span>康。夏至这天，各家面馆
+                  人气很旺。面馆的四川凉面、担担面、</span>
+                  <span>红烧肉面还是炸酱面等等.</span>
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 小暑 -->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_11">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">小暑</span>
+               <div class="con_1">
+                <span>小暑，二十四节气之第十一个节气，是干支历午月的结束以</span>
+                <span>及未月的起始。斗指辛，太阳到达黄经105度，于每年公历</span>
+               <span>7月6—8日交节。暑，是炎热的意思，小暑为小热，还不十分</span> 
+               <span>热。意指天气开始炎热，但还没到最热。小暑虽不是一年中</span> 
+                <span>最炎热的季节，但紧接着就是一年中最热的节气大暑，民间</span> 
+                <span>有“小暑大暑，上蒸下煮”之说。我国多地自小暑起进入雷暴最多的时节。</span>
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo11">
+            </div>
+            <div class="es_logo_11"></div>
+           <div class="par2">
+             <div class="es_img2_11"></div>
+            <div class="tx2">
+              <span class="ti_2">藕片</span>
+             <div class="con_2">
+              <span>一直以来，民间素有小暑吃藕的习俗，早在清
+                </span>
+              <span>咸丰年间，莲藕就被钦定
+                为御膳贡品了。因与“偶”同音，。</span>
+              <span>故民俗用食藕祝愿婚姻美满，又因其
+                出污泥而不染，与荷花同作</span>
+              <span>为清廉高洁的人格象征。</span>
+              <span>把藕切成薄片，用开水焯一下，加醋等凉拌</span>
+                <span>。也把藕和排骨一起清炖。藕中含有大量的碳
+                  水化合物及丰富的</span>
+                  <span>钙磷铁等，具有清热养血除烦等功效，适合夏天吃</span>
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 大暑 -->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_12">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">大暑</span>
+               <div class="con_1">
+                <span>大暑，二十四节气之一，是夏季最后一个节气。《通纬·孝经援神契》：</span>
+                <span>“小暑后十五日斗指未为大暑，六月中。小大者，就极热之中</span>
+               <span>，分为大小，初后为小，望后为大也”.太阳黄经为120°；公历7月22—24日交节.</span> 
+               <!-- <span>。</span>  -->
+                <span>“暑”是炎热的意思，大暑，指炎热之极。大暑相对小暑，更加炎热，是一年中最热的节气</span> 
+                <span>，“湿热交蒸”在此时到达顶点。大暑气候特征：高温酷热，雷暴、台风频繁。</span>
+                  <!-- <span></span> -->
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo12">
+            </div>
+            <div class="es_logo_12"></div>
+           <div class="par2">
+             <div class="es_img2_12"></div>
+            <div class="tx2">
+              <span class="ti_2">仙草</span>
+             <div class="con_2">
+              <span>南方有句谚语“六月大暑吃仙草，活如神仙不会老”，
+                </span>
+              <span>
+                “仙草”也就是凉粉草制成，可谓消暑美食，不仅在外观、</span>
+              <span>功效上与龟苓膏类似，还有更棒的口味。大暑来碗</span>
+              <span>冰冰凉凉的烧仙草，能将五脏六腑的闷热烦躁全清</span>
+                <span>除干净，清凉爽口，还能健脾利胃。仙草为拥有，</span>
+                  <span>特殊香味的草。类植物，养颜美容、可预防中暑</span>
+                  <span>。芋头做成的一种食品有开胃生津的作用</span>
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 立秋 -->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_13">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">立秋</span>
+               <div class="con_1">
+                <span>立秋，是二十四节气中第13个节气，于每年公历8月7-9日交节。此时，北斗七星的斗</span>
+                <span>柄指向西南，太阳到达黄经135°。立秋是秋季的第一个节气，为秋季的起点</span>
+               <span>。秋季从立秋起至立冬结束，其起始与结束，是天体运行的结果。立秋是阳气渐收</span> 
+               <span>、阴气渐长，由阳盛逐渐转变为阴盛的节点。进入秋季，意味着降水</span> 
+                <span>湿度等，处于一年中的转折点，趋于下降或减少；在自然界，万物开始从繁茂成长趋向萧索成熟。</span> 
+                <!-- <span>、</span> -->
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo13">
+            </div>
+            <div class="es_logo_13"></div>
+           <div class="par2">
+             <div class="es_img2_13"></div>
+            <div class="tx2">
+              <span class="ti_2">贴秋膘</span>
+             <div class="con_2">
+              <span>民间流行在立秋这天以悬秤称人，将体重与立夏时对比来检验</span>
+              <span>肥瘦，体重减轻叫“苦夏”。那时人们对健康的评判，往往</span>
+              <span>只以胖瘦做标准。瘦了当然需要“补”，补的办法就是“贴秋膘”</span>
+              <span>，吃味厚的美食佳肴，当然首选吃肉，“以肉贴膘”。这一天,</span>
+              <span>普通百姓家吃炖肉，讲究一点的人家吃白切肉、红焖肉，以</span>
+              <span>及肉馅饺子、炖鸡、炖鸭、红烧鱼等。</span>
+            
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 处暑-->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_14">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">处暑</span>
+               <div class="con_1">
+                <span>处暑，是二十四节气之第十四个节气。斗指戊（西南方）；太阳黄经为150°；</span>
+                <span>于每年公历8月22~24日交节。处暑，即为“出暑”，是炎热离开的意思。处暑</span>
+               <span>的到来，意味着酷热难熬的天气到了尾声，暑气渐渐消退，天气虽仍热，但已是呈下降趋势</span> 
+               <!-- <span>最需要雨水的滋润，正所谓“春雨贵如油”。降雨量充足而及时，谷类作物能茁壮成长</span> 
+                <span>谷雨与雨水、小满、小雪、大雪等节气一样，都是反映降水现象的节气，是古代农耕文化对于节令的反映。</span>  -->
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo14">
+            </div>
+            <div class="es_logo_14"></div>
+           <div class="par2">
+             <div class="es_img2_14"></div>
+            <div class="tx2">
+              <span class="ti_2">鸭肉</span>
+             <div class="con_2">
+              <span>处暑节气，“夏打砚”和“秋乏症”都会在这一时期出现。秋季腹泻与</span>
+               <span> 夏季不同，秋季的脾胃也相对虚弱，即使没有吃坏肚子也会不舒</span>
+               <span>服。这时候老苏州们就会准备上一道开胃润燥的美食——鸭子，作</span>
+               <span>为处暑的开端。民间吃处暑鸭，有很多种吃法:白切鸭、柠檬鸭、</span>
+               <span>子姜鸭、烤鸭、荷叶鸭、核桃鸭等五花八门。</span>
+             
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 白露 -->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_15">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">白露</span>
+               <div class="con_1">
+                <span>白露，是“二十四节气”中的第十五个节气，干支历申月的结束与</span>
+                <span>酉月的起始。斗指癸，太阳达黄经165度，于公历9月7-9日交节。</span>
+               <span>白露节气后，阴寒之气上升，初秋残留的暑气逐渐消散，昼夜热冷</span> 
+               <span>交替，寒生露凝。古人以四时配五行，秋属金，金色白，以白形容秋露，故名“白露”。</span> 
+                <!-- <span>谷雨与雨水、小满、小雪、大雪等节气一样，都是反映降水现象的节气，是古代农耕文化对于节令的反映。</span>  -->
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo15">
+            </div>
+            <div class="es_logo_15"></div>
+           <div class="par2">
+             <div class="es_img2_15"></div>
+            <div class="tx2">
+              <span class="ti_2">米酒</span>
+             <div class="con_2">
+              <span>白露米酒是湖南郴州一带的传统名酒。白露米酒，是用糯米、高粱</span>
+                <span>等五谷酿制成的，其酒甘甜温热，适合在秋天饮用。白露米酒当中</span>
+               <span> 的糯米成分，能够促进人体的胃液分泌，增加食欲，帮助消化，促</span>
+               <span> 进血液循环，对于高血脂、动脉硬化也有一定功效。</span>
+           
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 秋分-->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_16">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">秋分</span>
+               <div class="con_1">
+                <span>秋分，是二十四节气中的第十六个节气，时间一般为每年的公历9月22~24日。秋分这天太阳到达黄经</span>
+                <span>180°（秋分点），几乎直射地球赤道，全球各地昼夜等长（不考虑大气对太阳光的折射与晨昏蒙影）</span>
+               <span>。古时有“春祭日，秋祭月”的民俗活动，秋分曾是传统的“祭月节”（中秋节），中秋节由秋夕祭月演变而来。</span> 
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo16">
+            </div>
+            <div class="es_logo_16"></div>
+           <div class="par2">
+             <div class="es_img2_16"></div>
+            <div class="tx2">
+              <span class="ti_2">螃蟹</span>
+             <div class="con_2">
+              <span>我国民间俗语有云:“秋分食蟹忙”，秋分时节,是蟹肉最肥美、也最</span>
+               <span> 滋补的时候。肉嫩味美。遵循蟹背深青，蟹腹雪白、体厚坚实、肚脐</span>
+                <span>凸出、螫夹肥大、爪毛密挺的原则，一般都能挑到好蟹。“食醋摆不</span>
+                <span>坏”，蟹醋宜陈，存放愈久，味道愈醇;而姜则需嫩姜，嫩姜皮薄，</span>
+                <span>丝少，汁多，切成姜末之后，姜汁易溢出。特点是香味馥郁，能除腥</span>
+                <span>气，提鲜味，开胃口，增进食欲。</span>
+              
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 寒露-->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_17">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">寒露</span>
+               <div class="con_1">
+                <span>寒露，是二十四节气中的第十七个节气，属于秋季的第五个节气。斗指戊；太阳到达黄经195°；</span>
+                <span>在每年公历10月7日－9日交节。寒露是一个反映气候变化特征的节气，寒露节气后，昼渐短，夜</span>
+               <span>渐长，日照减少，热气慢慢退去，寒气渐生，昼夜的温差较大，晨晚略感丝丝寒意。从气候特点上看，寒露</span> 
+               <span>时节，南方秋意渐浓，气爽风凉，少雨干燥；北方广大地区已从深秋进入或即将进入冬季。</span> 
+                <!-- <span>谷雨与雨水、小满、小雪、大雪等节气一样，都是反映降水现象的节气，是古代农耕文化对于节令的反映。</span>  -->
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo17">
+            </div>
+            <div class="es_logo_17"></div>
+           <div class="par2">
+             <div class="es_img2_17"></div>
+            <div class="tx2">
+              <span class="ti_2">芝麻糊</span>
+             <div class="con_2">
+              <span>寒露到，天气由凉爽转向寒冷。根据中医“春夏养阳，秋冬养阴”</span>
+              <span>  的四时养生理论。这时人们应养阴防燥、润肺益胃。于是，民间就</span>
+                <span>有了“寒露吃芝麻”的习俗。在北京，与芝麻有关的食品都成了寒</span>
+               <span> 露前后的热门货，如芝麻辕、芝麻绿豆糕、芝麻烧饼等。     </span>
+           
+             
+              
+    
+             </div>
+            </div>
+           </div>
+          </div>  
+           <!-- 霜降-->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_18">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">霜降</span>
+               <div class="con_1">
+                <span>霜降，是二十四节气之第十八个节气。斗指戌；霜降节气，万物毕成，毕入于戌，阳下入地，</span>
+                <span>阴气始凝。俗话讲“霜降杀百草”，霜降过后，植物渐渐失去生机，大地一片萧索。霜降不表示</span>
+               <span>“降霜”，而是表示气温骤降、昼夜温差大。霜降节气后，深秋景象明显，冷空气南下越来越频繁。</span> 
+
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo18">
+            </div>
+            <div class="es_logo_18"></div>
+           <div class="par2">
+             <div class="es_img2_18"></div>
+            <div class="tx2">
+              <span class="ti_2">牛河</span>
+             <div class="con_2">
+              <span>不少地方都有霜降吃牛肉的习俗。例如广西玉林，这里的居民习惯在霜</span>
+             <span>   降这天，早餐吃牛河炒粉，午餐或晚餐吃牛肉炒萝卜，或是牛腩煲之类</span>
+                <span>的来补充能量，祈求在冬天里身体暖和强健。除牛肉外，羊肉与兔肉也</span>
+                <span>与霜降相宜。</span>
+
+    
+             </div>
+            </div>
+           </div>
+          </div>
+           <!-- 立冬-->
+           <div  class="list">
+            <div class="par1">
+              <div class="es_img_19">
+              </div>
+              <!-- 第二部分 -->
+              <div class="tx1">
+                <span class="ti_1">立冬</span>
+               <div class="con_1">
+                <span>立冬，二十四节气之一。立冬是季节类节气，表示自此进入了冬季。立，建始也；冬，终也，万</span>
+               <span>物收藏也。冬天季节，阳退阴生，生气闭蓄，万物收藏。“春生、夏长、秋收、冬藏”，</span> 
+               <span>冬季是享受丰收、休养生息的季节，立冬在古代民间是“四时八节”之一，在古代我国</span>
+                 <span>一些地方会在立冬举行祭祀、饮宴等活动，作为重要的节日来庆贺。</span> 
+
+                
+               </div>
+              </div>
+             
+
+            </div>
+            <!-- 第二部分 -->
+            <div class="es_logo19">
+            </div>
+            <div class="es_logo_19"></div>
+           <div class="par2">
+             <div class="es_img2_19"></div>
+            <div class="tx2">
+              <span class="ti_2">羊肉火锅</span>
+             <div class="con_2">
+              <span>寒风起，羊肉肥，立冬进补，羊肉是首选，又到了该吃羊肉的季节了。白</span>
+                <span>水煮，汤里放上一点花椒粒、盐、生姜片，煮熟后热腾腾地装盘就端到了</span>
+                <span>餐桌上，抓起煮得熟烂的肋条子肉，撕下，买着椒盐、辣椒油和醋，再就</span>
+                <span>上新剥的蒜瓣儿，一口肉，一口菱，那肉细嫩绵软，清香可口，没有膻</span>
+                <span>味，吸溜一下就下了肚，美味堪称是肉中极品。
+                </span>
+
+    
+             </div>
+            </div>
+           </div>
+          </div>
+ <!-- 小雪 -->
+ <div  class="list">
+  <div class="par1">
+    <div class="es_img_20">
+    </div>
+    <!-- 第二部分 -->
+    <div class="tx1">
+      <span class="ti_1">小雪</span>
+     <div class="con_1">
+      <span>小雪，是二十四节气中的第20个节气。时间在每年公历11月22或23日，即太阳到达黄经240°时</span>
+      <span>。“小雪”是反映气候特征的节气。</span>
+     
+      
+     </div>
+    </div>
+   
+
+  </div>
+  <!-- 第二部分 -->
+  <div class="es_logo20">
+  </div>
+  <div class="es_logo_20"></div>
+ <div class="par2">
+   <div class="es_img2_20"></div>
+  <div class="tx2">
+    <span class="ti_2">糍粑</span>
+   <div class="con_2">
+    <span>人们为迎接小雪节气到来，有诸多风俗食俗，有腌腊肉、吃糍粑、晒鱼</span>
+      <span>干、吃刨汤等等。糍粑是用糯米蒸熟捣烂后所制成的一种食品是中国南</span>
+      <span>方一些地区流行的美食。糍粑，用糯米蒸熟捣烂后所制成的一种食品。</span>
+      <span>糍粑是用熟糯米饭放到石槽里用石锤或者芦竹捣成泥状制作而成，一般</span>
+      <span>此类型的食物都可以叫做糍粑。象征着丰收、喜庆和团圆。
+      </span>
+
+    
+
+   </div>
+  </div>
+ </div>
+</div>
+ <!-- 大雪-->
+ <div  class="list">
+  <div class="par1">
+    <div class="es_img_21">
+    </div>
+    <!-- 第二部分 -->
+    <div class="tx1">
+      <span class="ti_1">大雪</span>
+     <div class="con_1">
+      <span>大雪，是二十四节气中的第21个节气，也是冬季的第三个节气。大雪，斗指癸，太阳到达黄经</span>
+      <span>255度，交节时间为每年公历12月6—8日。大雪和小雪、雨水、谷雨、小满等节气一样，都是直</span>
+     <span>接反映降水的节气。节气大雪的到来，意味着天气会越来越冷，降水量渐渐增多。大雪节气最常</span> 
+     <span>见的就是降温、下雨或下雪。</span> 
+      <!-- <span>谷雨与雨水、小满、小雪、大雪等节气一样，都是反映降水现象的节气，是古代农耕文化对于节令的反映。</span>  -->
+      
+     </div>
+    </div>
+   
+
+  </div>
+  <!-- 第二部分 -->
+  <div class="es_logo21">
+  </div>
+  <div class="es_logo_21"></div>
+ <div class="par2">
+   <div class="es_img2_21"></div>
+  <div class="tx2">
+    <span class="ti_2">腊肉</span>
+   <div class="con_2">
+    <span>俗话说:“冬腌风腊，蓄以御冬。”北方有“小雪腌菜，大雪腌肉”的习</span>
+      <span>俗，选猪身上兼有肥瘦又质地细嫩的前腿肉切成条状，撒上盐、糖、白</span>
+      <span>酒、红曲米、五香粉腌渍备用;将准备好的肉条肥瘦相间放到阴凉通风</span>
+      <span>处，美味就在这流淌的时间中自然形成了。色泽鲜艳，黄里透红，瘦肉纹</span>
+      <span>理细腻，肥肉晶莹剔透，煮熟，吃起来味道醇香，肥不腻口，瘦不柴干。
+      </span>
+
+   </div>
+  </div>
+ </div>
+</div>
+ <!-- 冬至 -->
+ <div  class="list">
+  <div class="par1">
+    <div class="es_img_22">
+    </div>
+    <!-- 第二部分 -->
+    <div class="tx1">
+      <span class="ti_1">冬至</span>
+     <div class="con_1">
+      <span>冬至，又称日短至、冬节、亚岁、拜冬等，兼具自然与人文两大内涵，既是二十四节气中一个重要的节气，</span>
+      <span>也是中国民间的传统节日。冬至是四时八节之一，被视为冬季的大节日，在古代民间有“冬至大如年”的讲</span>
+     <span>法，所以古人称冬至为“亚岁”或“小年”。冬至习俗因地域不同而又存在着习俗内容或细节上的差异。在中</span> 
+     <span>国南方沿海部分地区，有冬至祭祖、宴饮的习俗；在中国北方地区，每年冬至日有吃饺子的习俗。</span> 
+      <!-- <span>谷雨与雨水、小满、小雪、大雪等节气一样，都是反映降水现象的节气，是古代农耕文化对于节令的反映。</span>  -->
+      
+     </div>
+    </div>
+   
+
+  </div>
+  <!-- 第二部分 -->
+  <div class="es_logo22">
+  </div>
+  <div class="es_logo_22"></div>
+ <div class="par2">
+   <div class="es_img2_22"></div>
+  <div class="tx2">
+    <span class="ti_2">饺子</span>
+   <div class="con_2">
+    <span>张仲景东汉时曾任长沙太守，其返乡之时，正是冬季。他看到白河两岸乡</span>
+      <span>亲不少人的耳朵都冻烂了。便在冬至那天舍“祛寒娇耳汤”医治冻疮。他</span>
+      <span>把羊肉和一些驱寒药材放在锅里熬煮，然后将羊肉、药物捞出来切碎，用</span>
+      <span>面包成耳朵样的“娇耳”，煮熟后，分给病人两只“娇耳”，一大碗肉</span>
+      <span>汤。人们吃了“娇耳”，浑身暖和，两耳发热，冻伤的耳朵都治好了。后</span>
+     <span> 人学着“娇耳”的样子，包成食物，也叫“饺子”或“扁食”。
+      </span>
+
+
+   </div>
+  </div>
+ </div>
+</div>
+ <!-- 小寒-->
+ <div  class="list">
+  <div class="par1">
+    <div class="es_img_23">
+    </div>
+    <!-- 第二部分 -->
+    <div class="tx1">
+      <span class="ti_1">小寒</span>
+     <div class="con_1">
+      <span>小寒，是二十四节气中的第23个节气，也是冬季的第5个节气。斗指子；太阳黄经为285°；公历1月5</span>
+      <span>—7日交节。小寒，标志着季冬时节的正式开始。冷气积久而寒，小寒是天气寒冷但还没有到</span>
+     <span>极点的意思。它与大寒、小暑、大暑及处暑一样，都是表示气温冷暖变化的节气。小寒的天气特点是</span> 
+     <span>：天渐寒，尚未大冷。俗话有讲：“冷在三九”，由于隆冬“三九”也基本</span> 
+      <span>上处于该节气之内，因此有“小寒胜大寒”之讲法。</span> 
+      
+     </div>
+    </div>
+   
+
+  </div>
+  <!-- 第二部分 -->
+  <div class="es_logo23">
+  </div>
+  <div class="es_logo_23"></div>
+ <div class="par2">
+   <div class="es_img2_23"></div>
+  <div class="tx2">
+    <span class="ti_2">菜饭</span>
+   <div class="con_2">
+    <span>南京对小寒可是非常重视,全家都要聚在一起吃顿菜饭。俗话说得好,“大</span>
+      <span>寒小寒又一年”嘛。有用矮脚黄青菜与咸肉片、香肠片或是板鸭丁,再制</span>
+      <span>上一些生姜粒与糯米一起煮的,十分香鲜可口。之所以要吃菜饭,中医认为</span>
+      <span>寒为阴邪,小寒是一年之中最冷的节气,也是阴气最盛的时期。菜饭中糯米</span>
+      <span>补中益气,健脾暖胃,能增强机体抵御寒邪的能力,另外生姜味辛性温,具有</span>
+      <span>发汗解表、温肺散寒之功效。
+      </span>
+
+
+   </div>
+  </div>
+ </div>
+</div>
+ <!-- 大寒 -->
+ <div  class="list">
+  <div class="par1">
+    <div class="es_img_24">
+    </div>
+    <!-- 第二部分 -->
+    <div class="tx1">
+      <span class="ti_1">大寒</span>
+     <div class="con_1">
+      <span>大寒，是二十四节气中的最后一个节气。斗指丑；太阳黄经为300°；公历1月20—21日交节。同小寒一样，</span>
+      <span>大寒也是表示天气寒冷程度的节气。民谚云：“小寒大寒，无风自寒。”大寒在传统节气中是极冷的时节。</span>
+     <span>在我国部分地区，大寒不如小寒冷，但在我国南方沿海一带，全年最低气温仍然会出现在大寒节气内。</span> 
+    
+     </div>
+    </div>
+   
+
+  </div>
+  <!-- 第二部分 -->
+  <div class="es_logo24">
+  </div>
+  <div class="es_logo_24"></div>
+ <div class="par2">
+   <div class="es_img2_24"></div>
+  <div class="tx2">
+    <span class="ti_2">鸡汤</span>
+   <div class="con_2">
+    <span>寒节气期间，有不少地方喜欢煲炖鸡汤，这是大寒节气的饮食习</span>
+      <span>俗，大寒节气阳气逐渐上升，虽然大寒节气会有寒潮及降温天气，</span>
+      <span>尽管寒气逼人严冬不已，但是很快就会结束严寒，北方的鸡汤偏稠</span>
+      <span>厚却不失美味、南方的鸡汤偏清淡却不失精致。尤其是大寒常食用</span>
+      <span>温热食物以燥气上火。不妨大寒养生来些炖鸡汤滋补去凉燥。</span>
+
+
+   </div>
+  </div>
+ </div>
+</div>
+
+      </div>
+      </div>
+      <div class="yuqi_logo">
+        <span class="yq">
+        </span>
+      <div class="xiju" id="v5">
+        <h4>传统乐器</h4>
+      </div>
+        <!-- 戏剧 -->
+        <div class="container_xj">
+          <div class="box_xj">
+              <img src="../static/images/xuju/ehu.png" alt="">
+              <span>二胡</span>
+          </div>
+          
+          <div class="box_xj">
+              <img src="../static/images/xuju/dizi.png" alt="">
+              <span>笛子</span>
+          </div>
+          
+          
+           <div class="box_xj">
+              <img src="../static/images/xuju/gz.png"  alt="">
+              <span>古筝</span>
+          </div>
+          
+           
+           <div class="box_xj">
+              <img src="../static/images/xuju/pipa.png" alt="">
+              <span>琵琶</span>
+          </div>
+           
+      </div>
+      <!-- 文字介绍 -->
+      <div class="shici" id="v3">
+        <h4>诗词</h4>
+      </div>
+      <div class="text_include">
+        <div class="t_img"></div>
+      
+              <div class="one">
+  
+              
+              <span>但愿人长久，千里共婵娟。</span>
+              <span>人有悲欢离合，月有阴晴圆缺，此事古难全。</span>
+              <span>不应有恨，何事长向别时圆？</span>
+              <span>转朱阁，低绮户，照无眠。</span>
+              <span>起舞弄清影，何似在人间。</span>
+              <span>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。</span>
+              <span>不知天上宫阙，今夕是何年。</span>
+              <span>明月几时有，把酒问青天。</span>
+              <span>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。</span>
+              <span>  </span>
+              <span></span>
+              <span></span>
+               <span class="ti">----苏轼</span> 
+               <span class="ti">《水调歌》</span>
+              </div>
+          <div class="t_img1"></div>
+          <div class="t_t"><h4>诗藏思乡情</h4></div>
+      </div>
+  <div class="ersi_logo">
+      <span class="s1">
+      </span>
+      <span class="s2"></span>
+  </div>
+  <div class="guohua" id="v4">
+    <h4>国画</h4>
+  </div>
+      <div class="container">
+        <div class="card">
+            <div class="imgBox">
+                <img src="../static/images/gb1.jpg" ">
+            </div>
+            <div class="content">
+                <h2>1</h2>
+                <p>中国绘画起源于古代的象形文字。起初，文字和绘画没有区别，这原本是一种意义。有人认为伏羲卜筮和仓颉是书画的先驱。写作和绘画没有区别。</p>
+            </div>
+        </div>
+  
+        <!-- 第二个盒子 -->
+        <div class="card">
+            <div class="imgBox">
+                <img src="../static/images/gb2.jpg" ">
+            </div>
+            <div class="content">
+                <h2>2</h2>
+              
+                <p> 国画一词起源于汉代，主要指的是画在绢、宣纸、帛上并加以装裱的卷轴画。国画是中国的传统绘画形式，是用
+                  毛笔蘸水、墨、彩作画于绢或纸上。工具和材料有毛笔、墨、国画颜料、宣纸、绢等，题材可分人物、山水、花
+                  鸟等，技法可分具象和写意。中国画在内容和艺术创作上，体现了古人对自然、社会及与之相关联的政治、哲学
+                  、宗教、道德、文艺等方面的认知。</p>
+                 
+            </div>
+        </div>
+        <!-- 第三个盒子 -->
+        <div class="card">
+            <div class="imgBox">
+                <img src="../static/images/gb3.jpg">
+            </div>
+            <div class="content">
+                <h2>3</h2>
+                <p>自唐宋以来，画家对于国画的创新一直延续至今，在传承的基础上创新风格。到了明代群星闪烁的“吴门画派”不仅代表着明代绘画
+                  的最高水平，而且还在师古与创新的探索中，为后世开一新河。</p>
+            </div>
+        </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  </div>
+  
+
+        
+  <footer style="text-align: center;">KROLING0 &copy; CHINA 2020-2060,2020-10-31&trade; </footer>
+       
+<script>
+       $(function(){
+                    //获取点击事件的对象
+                    $(".nav_father .nav_move li").click(function(){
+                        //获取要显示或隐藏的对象
+                        var divShow = $(".content_move").children('.list');
+                        //判断当前对象是否被选中，如果没选中的话进入if循环
+                        if (!$(this).hasClass('selected')) {
+                            //获取当前对象的索引
+                            var index = $(this).index();
+                            //当前对象添加选中样式并且其同胞移除选中样式；
+                            $(this).addClass('selected').siblings('li').removeClass('selected');
+                            //索引对应的div块显示
+                            $(divShow[index]).show();
+                            //索引对应的div块的同胞隐藏
+                            $(divShow[index]).siblings('.list').hide();
+                        }
+                    });
+                });
+                // 子导航栏
+    // $('body').append(new Date());
+    Date.prototype.format = function (fmt) {
+            var o = {
+                "y+": this.getFullYear, //年
+                "M+": this.getMonth() + 1, //月份
+                "d+": this.getDate(), //日
+                "h+": this.getHours(), //小时
+                "m+": this.getMinutes(), //分
+                "s+": this.getSeconds() //秒
+            };
+            if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+            for (var k in o)
+                if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+            return fmt;
+        }
+        setInterval("document.getElementById('dateTime').innerHTML = (new Date()).format('MM/dd hh:mm:ss');", 1000);
+    // 滑动时就为header添加sticky类
+    window.addEventListener("scroll",function(){
+        var header=document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY>0);
+    })
+    $('.testimonial-pics img').click(function(){
+        $(".testimonial-pics img").removeClass("active");
+        $(this).addClass("active");
+
+        $(".testimonial").removeClass("active");
+        $("#"+$(this).attr("alt")).addClass("active");
+      });
+    
+</script>
+
+</body>
+</html>

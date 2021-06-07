@@ -1,0 +1,69 @@
+.guohua h4
+{
+     font-family: "XIAXING";
+    margin: -1px 0 -5px 543px;
+    font-size: 50px;
+    float: left;
+}
+
+.shici h4
+{
+     font-family: "XIAXING";
+    margin: -1px 0 -5px 543px;
+    font-size: 50px;
+    /* float: left; */
+}
+.xiju h4
+{
+     font-family: "XIAXING";
+    margin: 22px 355px -1px 236px;
+    font-size: 50px;
+    /* float: left; */
+}
+
+.ersi_j h4
+{
+     font-family: "XIAXING";
+    margin: -1px 0 -5px -600px;
+    font-size: 50px;
+    /* float: left; */
+}
+
+
+.shhua h4
+{
+     font-family: "XIAXING";
+    margin: -1px 0 -5px 0px;
+    font-size: 50px;
+    /* float: left; */
+}
+
+
+/* 乐器的logo */
+.yuqi_logo
+{
+  text-align: center;
+}
+.yuqi_logo .yq{
+ 
+ /* float: left; */
+ display: inline-block;
+ width: 80px;
+ height:80px;
+ background: url("../images/xiaohua.png") no-repeat;
+ background-size:contain;
+}
+
+.sh_logo
+{
+  text-align: center;
+}
+.sh_logo .shl{
+ 
+ /* float: left; */
+ display: inline-block;
+ width: 80px;
+ height:80px;
+ background: url("../images/daye.png") no-repeat;
+ background-size:contain;
+}

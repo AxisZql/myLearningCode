@@ -1,0 +1,623 @@
+
+@font-face {
+    font-family: XIAXING;
+    src: url("../ZIti/XIAXING.ttf")
+  }
+  @font-face
+  {
+    font-family: XINGSHU;
+    src: url("../ZIti/XINGSHU.ttf");
+  }
+  @font-face
+  {
+    font-family: JIAGU;
+    src:url("../ZIti/JIAGU.ttf");
+  }
+  @font-face
+  {
+    font-family:SKAI ;
+    src:url("../ZIti/SKAI.ttf");
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#fdfdfd;
+    min-height: 200vh;
+}
+
+.HDR {
+    position: fixed;
+    /* 相对于浏览器定位（脱离文档流）*/
+    /* 相对于窗口定位 */
+    /* 原来文档流里面不存在他的位置 */
+    /* 当页面开始滚动时，该元素相对于窗口位置不变故其不滚动 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    font-family: "XIAXING";
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    /* 过渡属性 */
+    padding: 15px 68px;
+    z-index: 100000;
+}
+ .sticky
+{
+    background: rgb(0, 0, 0,.3);
+}
+.HDR .logo
+{
+    /* position: relative; */
+    /* 不脱离文档流 */
+    /* 用left，top bottom，right等进行相对于原来文档流进行定位 */
+    /* 不影响其他元素 */
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    /* 定义仅有大写字母 */
+    letter-spacing: 2px;
+    /* 增加或者减少字符间的空白 */
+    transition: 0.6s;
+    text-shadow: 2px 0px 5px #83AC8B;
+ 
+}
+.ma{
+  position: absolute;
+  /* 脱离文档流相对于父元素定位 */
+  height: 100%;
+  width: 60px;
+  background: url("../images/logo1.png") no-repeat center;
+  background-size: cover;
+  left: 20px;
+}
+.dt
+{
+  font-size: 20px;
+        text-decoration: none;   
+        font-family: "XIAXING";
+        text-shadow: 2px 0px 10px #83AC8B;
+        margin: 10px 10%;
+
+  
+}
+.a1{
+  /* position:absolute; */
+  font-size: 20px;
+  text-decoration: none;   
+  font-family: "KaiTi";
+  text-shadow: 2px 0px 10px #83AC8B;
+  /* right: 20px; */
+  /* top: 10px; */
+  color:black;
+}
+.HDR  ul
+{
+    position: relative;
+    display: flex;
+    /* float: right; */
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 60%; */
+    text-shadow: 2px 0px 5px #83AC8B;
+
+}
+.HDR ul li{
+    position: relative;
+    list-style: none;
+
+}
+.HDR ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+
+}
+.HDR ul li:hover{
+  background-color: #ffffff;
+}
+
+.HDR ul li a:hover{
+  color: rgb(197, 79, 0);
+}
+.banner1
+{
+     /* position: relative;  */
+     /* display: block; */
+    /* width: 100vmax; */
+    height: 100vh; 
+    width: auto;
+    background: url("../images/bg4.jpg") repeat;
+    background-size: cover;
+} 
+.sticky .logo
+{
+    color: #ffffff;
+}
+.sticky ul li a
+{
+    color: #ffffff;
+
+}
+.aa
+{
+  position: relative;
+  
+}
+.center {
+
+  
+  position: absolute;
+  left: 43vw;
+  top: -320px;
+  /* color: #14ffe9; */
+}
+  
+  
+  .outer {
+    position: relative;
+    margin: 0 50px;
+    background-color:rgb(196, 196, 196);
+  }
+  
+  .button {
+    height: 70px;
+    width: 180px;
+    border-radius: 50px;
+  }
+  /* 确定色彩位置 */
+  .outer button,
+  .outer span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .outer button {
+    background-color: rgb(255, 255, 255);
+    color: #7e7575;
+    outline: none;
+    border: none;
+    font-size:25px;
+    z-index: 9;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "XINGSHU";
+  }
+  .button button {
+    height: 60px;
+    width: 170px;
+    border-radius: 50px;
+  }
+  .outer span {
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+  }
+  
+  .button span {
+    border-radius: 50px;
+  }
+  .outer:hover span:nth-child(1) {
+    filter: blur(7px);
+  }
+  
+  .outer:hover span:nth-child(2) {
+    filter: blur(14px);
+  }
+  
+  .outer:hover {
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: rotate 1.5s linear infinite;
+  }
+  .center a
+  {
+    font-size: 70px;
+        text-decoration: none;   
+        font-family: "XIAXING";
+        color: #fff;
+        text-shadow: 2px 0px 10px #83AC8B;
+        margin: 10px -200%;
+  }
+  
+  @keyframes rotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .center {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .outer {
+      margin: 50px 0;
+    }
+  }
+
+
+  /* 第二部分 */
+  .h-f
+{
+  /* margin: -17 auto; */
+  position: relative;
+  text-align: center;
+}
+.h-f span{
+  position: absolute;
+  font-family: "XINGSHU";
+  font-size: 60px;
+  left: 40vw;
+  top: -400px;
+  text-shadow: 2px 0px 10px #83AC8B;
+}
+.main{
+  text-align: center;
+  
+}
+.main_son
+{ height: 100%;
+  width: 1260px;
+  margin: 0 auto;
+  /* background-color: aliceblue;  */
+   box-shadow: 0 15px 13px rgba(0,0,0,0.5);
+}
+.inner-width{
+  /* float: left; */
+  max-width: 1200px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.testimonial-section h1{
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.testimonial-pics{
+  padding: 40px 0;
+}
+
+.testimonial-pics img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 20px;
+  /* 修改所有图片为灰白 */
+  filter: grayscale(100%);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.testimonial-pics img:hover, .testimonial-pics img.active{
+  filter: none;
+}
+
+
+.testimonial-contents{
+  max-width: 600px;
+  margin: auto;
+}
+
+.testimonial{
+  display: none;
+}
+
+.testimonial.active{
+  display: block;
+}
+
+.testimonial p{
+  font-family: "KaiTi";
+  font-size: 17px;
+  color: #5c5c5c;
+  margin-bottom: 20px;
+}
+
+.testimonial .description{
+  text-transform: uppercase;
+  font-family: "XIAXING";
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+/* logo 图标 */
+.logo_t{
+  /* float: left; */
+  text-align: center;
+  /* background-color: antiquewhite; */
+}
+.logo_t span{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 0 auto;
+  /* align-items: center; */
+  background: url("../images/logo.png") no-repeat;
+  background-size:contain;
+
+}
+
+/* 文字介绍部分 */
+.text_include{
+  height: 350px;
+  width: 1262px;
+  text-align: left !important;
+  /* background-color: aqua; */
+  margin:0 auto;
+  /* box-shadow: 0px -1px 10px -4px rgb(0,0,0,.3); */
+  /* text-align: center; */
+}
+.text_include .one{
+  margin: 0 30%;
+  border: #111;
+}
+.text_include span{
+    margin: 28px 10px;
+    height: 415px; 
+  font-family: "XINGSHU";
+  writing-mode: vertical-rl;
+  width: 13px;
+  font-size: 20px;
+}
+.ti{
+  height: 311px !important;
+  margin: 4px 0 !important;
+  
+}
+.t_img{
+  width: 343px;
+  height: 200px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 5px;
+  background:url("../images/text_01.jfif") center;
+  box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+  background-size:contain;
+
+  border-radius: 84px;
+}
+.t_img1{
+  width: 306px;
+  height: 173px;
+  float: right;
+  margin-top: -192px;
+  margin-left: 5px;
+  margin-right: 64px;
+  background:url("../images/text_02.jfif") no-repeat center;
+  box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+  background-size:contain;
+
+  border-radius: 84px;
+}
+.t_t{
+  float: right;
+  margin-top: -389px;
+   margin-left: 5px;
+   margin-right: 261px;
+  /* text-indent; */
+}
+.t_t h4{
+  font-family: "SKAI";
+  font-size: 25px;
+  color: silver;
+}
+/* 二十四节气栏
+ */
+ .ersi_logo
+ {
+   text-align: center;
+ }
+ .ersi_logo .s1{
+  
+  /* float: left; */
+  display: inline-block;
+  width: 80px;
+  height:80px;
+  background: url("../images/植物3.png") no-repeat;
+  background-size:contain;
+ }
+ .ersi_logo .s2{
+  
+  float: right;
+
+  width: 100px;
+  height:100px;
+  margin: 0 10px;
+  background: url("../images/植物-小叶草.png") no-repeat;
+  background-size:contain;
+ }
+ /* 二十四节气 */
+ .ersi_cont{
+  height: 480px;
+  width: 1262px;
+  /* background-color: rgb(72, 105, 105); */
+  /* text-align: center; */
+  margin:0 auto;
+  /* box-shadow: 0px -1px 10px -4px rgb(0,0,0,.3); */
+  /* text-align: center; */
+}
+
+.box1{
+  float: left;
+  width: 215px;
+  /* background-color: rgb(255, 47, 47); */
+  /* 水平居中 */
+  margin: 43px 7px 6px 73px;
+  box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+}
+ .toal{
+   display: inline-block;
+  height: 250px;
+  width: 215px; 
+  /* 只显示一张图片的宽度 */
+  overflow: hidden;
+}
+#banner{
+  height: 250px;
+  /* 215*4=860 */
+  width: 860px;
+}
+.ersi_cont li{
+  float:left;
+  width: 215px;   
+  height: 250px;
+  list-style: none;
+}
+ img 
+{
+  width: 100%;
+  height: 100%;
+}
+.ersi_cont span{
+  float: left;
+   margin: 45px 32px;  
+    height: 300px; 
+    text-align: left !important;
+  writing-mode: vertical-rl;
+  font-family: "SKAI";
+  width: 13px;
+  font-size: 14px;
+}
+
+/* 悬停特效 */
+.container{
+  display: flex;
+  margin: 3vh auto;
+  transform: translateX(-3%);
+  padding-right: 10px;
+  width: 1351px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.container .card{
+  max-width: 391px;
+  height: 181px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-left: 30px;
+  padding-right: 20px;
+  padding-left: 8px;
+  flex-direction: column;
+  box-shadow: 0 15px 13px rgba(0,0,0,0.5);
+  transition: 0.5s ease-in-out;
+}
+.container .card:hover{
+  height: 420px;
+}
+.container .card .imgBox{
+
+  position: relative;
+  width: 358px;
+  height: 220px;
+  top: -33px;
+  left: 16px;
+  z-index: 1;
+  /* 不懂 */
+  z-index: 1;
+  /* 下面是盒子阴影 */
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgBox img{
+  max-width: 109%;
+  /* 图片盒子的圆角 */
+  border-radius: 13px;
+}
+/* 隐藏文字 */
+.container .card .content{
+  
+  position: relative;
+  margin-top: -140px;
+  padding: 4px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.container .card .content p{
+  font-family:"XIAXING";  
+  font-size: 16px;
+}
+.container .card .content h2{
+  font-family:'Segoe Script', serif;  
+}
+.container .card:hover .content{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+
+/* 戏剧的效果 */
+.container_xj{
+  display: flex;
+  width: 80%;
+  padding: 4%;
+  padding-left: 20%;
+  padding-right: 3%;
+  box-sizing: border-box;
+  height: 70vh;
+  border-bottom: solid;
+  border-bottom-color: rgb(247, 238, 238);
+  border-width: 1px;
+}
+
+
+.box_xj{
+  flex: 1;
+  /* 将超出盒子部分的图片隐藏 */
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+  line-height: 0;
+  border-radius: 20px;
+}
+
+.box_xj > img{
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.box_xj > span{
+  font-family: "XINGSHU" !important;
+  font-size: 3vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.5;
+  font-family: tahoma;
+  color: #333;
+  text-transform: uppercase;
+}
+
+
+.box_xj:hover{
+  flex: 60%;
+}
+
+.box_xj:hover > img{
+  width: 100%;
+  height: 100%;
+}

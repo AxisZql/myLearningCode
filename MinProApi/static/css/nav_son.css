@@ -1,0 +1,1362 @@
+.nav_move {
+    overflow: hidden;
+    text-align: center;
+    /* background-color: #f4f4f4; */
+}
+.nav_move li {
+    float: left;
+    padding: 5px;
+    width: 50px;
+    list-style: none;
+    border-left: 1px solid #f4f4f4;
+    cursor: pointer;
+    font-family: "XIAXING";
+    border-bottom-style: 2px dashed #f4f4f4;
+}
+.nav_move li:hover,.selected {
+    background-color:#ecebeb;
+    border-left: 1px solid #ecebeb;
+}
+.content_move{
+    border: 1px solid #f4f4f4;
+    height: 1000px;
+    padding: 10px;
+    overflow: hidden;
+}
+.nav_father
+{
+    width: 100%;
+    height: 700px;
+    border-bottom: solid;
+    border-bottom-color: rgb(247, 238, 238);
+    border-width: 1px;
+}
+.es_img
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/1.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+
+.tx1
+{
+    float:right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.par1
+{
+    position: relative;
+    height:400px;
+}
+.con_1 span
+{
+  display: block;
+  color: rgb(105, 105, 105);
+  /* writing-mode: vertical-lr; */
+  text-align: left;
+  font-family:"XIAXING";
+  /* position: absolute; */
+
+
+}
+.con_1
+{
+    
+    margin-top: 15px;
+ 
+}
+.ti_1
+{
+    font-family: "XIAXING";
+  
+    float: left;
+    width: 61px;
+    height: 250px;
+    font-size: 54px;
+    /* border-style: solid; */
+    /* border-right-style: dotted; */
+    right: 50vw;
+    
+}
+.tx2
+{
+    float: left;;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.par2
+{
+    position: relative;
+    height:585px;
+}
+.con_2 span
+{
+  display: block;
+  text-align:left;
+  color: rgb(105, 105, 105);
+  font-family:"XIAXING";
+  writing-mode: sideways-rl;
+ 
+
+
+}
+.con_2
+{
+    
+    margin-top: 28px;
+ 
+}
+.ti_2
+{
+    /* position: absolute !important; */
+    float: right;
+    width: 40px;
+    height: 200px;
+    font-size: 54px;
+    /* border-style: solid; */
+    /* border-left-style: dashed; */
+    font-family:"XIAXING";
+    right: 50vw;
+    
+}
+.es_img2
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/春卷.jfif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/立春.png");
+    background-size: 100px 100px;
+}
+.es_logo1
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/春2.png);
+    border-radius: 100px;
+    /* /* background-size: 100px 100px; */
+}
+
+/* 第二个 */
+
+.es_img_2
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/2.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo2
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/雨水b.png) center;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_2
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/雨水s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_2
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/雨水.png");
+    background-size: 100px 100px;
+}
+
+/* 第三个 */
+
+.es_img_3
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/惊蛰.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo3
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/惊蛰b.png) center;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_3
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/惊蛰s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_3
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/惊蛰.png");
+    background-size: 100px 100px;
+}
+
+/* 第四个 */
+.es_img_4
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/3.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo4
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/春分b.png) center;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_4
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/春分s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_4
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/春分.png");
+    background-size: 100px 100px;
+}
+
+/* 清明 */
+.es_img_5
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/4.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo5
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/清明b.png) ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_5
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/清明s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_5
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/清明.png");
+    background-size: 100px 100px;
+}
+
+/* 谷雨 */
+.es_img_6
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/5.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo6
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/谷雨b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_6
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/谷雨s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_6
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/谷雨.png");
+    background-size: 100px 100px;
+}
+
+/* 立夏 */
+.es_img_7
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/6.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo7
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/立夏b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_7
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/立夏s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_7
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/立夏.png");
+    background-size: 100px 100px;
+}
+
+/* 小满
+ */
+ .es_img_8
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/7.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo8
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/小满b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_8
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/小满s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_8
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/小满.png");
+    background-size: 100px 100px;
+}
+
+/* 芒种 */
+.es_img_9
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/8.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo9
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/芒种b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_9
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/芒种s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_9
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/芒种.png");
+    background-size: 100px 100px;
+}
+
+/* 夏至 */
+.es_img_10
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/9.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo10
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/夏至b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_10
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/夏至s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_10
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/夏至.png");
+    background-size: 100px 100px;
+}
+
+/* 小暑 */
+.es_img_11
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/10.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo11
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/小暑b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_11
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/小暑s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_11
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/小暑.png");
+    background-size: 100px 100px;
+}
+
+/* 大暑 */
+.es_img_12
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/11.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo12
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/大暑b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_12
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/大暑s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_12
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/大暑.png");
+    background-size: 100px 100px;
+}
+
+/* 立秋 */
+.es_img_13
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/12.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo13
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/立秋b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_13
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/立秋s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_13
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/立秋.png");
+    background-size: 100px 100px;
+}
+/* 处暑 */
+.es_img_14
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/13.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo14
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/处暑b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_14
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/处暑s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_14
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/处暑.png");
+    background-size: 100px 100px;
+}
+
+/* 白露 */
+.es_img_15
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/14.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo15
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/白露b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_15
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/白露s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_15
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/白露.png");
+    background-size: 100px 100px;
+}
+
+/* 秋分 */
+.es_img_16
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/秋分.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo16
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/秋分b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_16
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/秋分s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_16
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/秋分.png");
+    background-size: 100px 100px;
+}
+
+/* 寒露 */
+.es_img_17
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/15.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo17
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/寒露b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_17
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/寒露s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_17
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/寒露.png");
+    background-size: 100px 100px;
+}
+
+/* 霜降 */
+.es_img_18
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/16.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo18
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/霜降b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_18
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/霜降s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_18
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/霜降.png");
+    background-size: 100px 100px;
+}
+
+/* 立冬 */
+.es_img_19
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/17.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo19
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/立冬b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_19
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/立冬s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_19
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/立冬.png");
+    background-size: 100px 100px;
+}
+/* 小雪 */
+.es_img_20
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/18.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo20
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/小雪b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_20
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/小雪s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_20
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/小雪.png");
+    background-size: 100px 100px;
+}
+
+/* 大雪 */
+.es_img_21
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/19.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo21
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/大雪b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_21
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/大雪s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_21
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/大雪.png");
+    background-size: 100px 100px;
+}
+/* 冬至 */
+.es_img_22
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/20.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo22
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/冬至b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_22
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/冬至s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_22
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/冬至.png");
+    background-size: 100px 100px;
+}
+
+/* 小寒 */
+.es_img_23
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/21.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo23
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/小寒b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_23
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/小寒s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_23
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/小寒.png");
+    background-size: 100px 100px;
+}
+
+/* 大寒
+ */
+ .es_img_24
+{
+    width: 209px;
+    height: 289px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 112px;
+    background: url(../images/huandeng/22.gif) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: contain;
+    border-radius: 29px;
+}
+.es_logo24
+{
+    width: 562px;
+    height: 236px;
+    float: right;
+    margin-top: -241px;
+    margin-right: 83px;
+    margin-left: 287px;
+    /* background: url(images/JQ/春2.png); */
+    background-size: 231px -50px;
+    background: url(../images/JQ/大寒b.png) center ;
+    border-radius: 100px;
+    
+    /* /* background-size: 100px 100px; */
+}
+.es_img2_24
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 392px;
+    background: url(../images/JQ/大寒s.png) center;
+    box-shadow: 10px 10px 10px -4px rgb(0,0,0,.3);
+    background-size: 200px 200px;
+    border-radius: 48px;
+}
+.es_logo_24
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-top: -101px;
+    margin-right: 6px;
+    margin-left: 287px;
+    background: url("../images/JQ/大寒.png");
+    background-size: 100px 100px;
+}

@@ -1,0 +1,12 @@
+<h1>极限计算器</h1>
+
+<form action="{% url 'jfapi:jfview' %}" method="post">
+
+<input type="text" name="NUM_CHOIC" value="4" readonly>
+<input type="text" name="function" placeholder="表达式">
+<input type="text" name="var" placeholder="自变量">
+<input type="text" name="limi" placeholder="极限类型0-1-2">
+<input type="text" name="val" placeholder="展开点">
+
+<input type="submit" value="提交">
+</form>

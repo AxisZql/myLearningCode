@@ -1,0 +1,16 @@
+<h1>计算器类型选择页面1-6</h1>
+
+<form action="{% url 'jfapi:enteriew' %}" method="post">
+
+<select name="NUM_CHOIC">
+<option value="0">不定积分</option>
+<option value="1">函数求导</option>
+<option value="2">因式分解</option>
+<option value="3">定积分</option>
+<option value="4">求极限</option>
+<option value="5">表达式化简</option>
+</select>
+<input type="submit" value="提交">
+</form>
+
+<a href="{% url 'jfapi:mywork' %}">去往我的小花园</a>
