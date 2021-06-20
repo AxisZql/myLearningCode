@@ -1,2 +1,3 @@
-# Kroling0_test
-This is a test project
+# 这是我学习整理的代码
+
+Related to django,fastApi,python crawler,captcha recognition,springboot,leetCode
